@@ -1,0 +1,6 @@
+if SHIELD_KITSUNENUMPAD
+
+config ZMK_KEYBOARD_NAME
+    default "KitsuneNumpad"
+
+endif
