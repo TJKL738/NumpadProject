@@ -7,7 +7,6 @@
         compatible = "zmk,keymap";
 
         JassonLayout {
-            display-name = "BASE";
             bindings = <
 &kp ESC           &kp N1     &kp N2        &kp N3      
 &kp TAB           &kp Q      &kp W
