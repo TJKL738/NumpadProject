@@ -16,16 +16,5 @@
 &kp LEFT_CONTROL  &kp GRAVE  &kp LEFT_WIN
         };
 
-        lower_layer {
-            display-name = "LOW";
-            bindings = <
-&kp F11  &kp F1  &kp F2  &kp F3
-&none    &none   &none
-&none    &none   &none   &none
-&trans   &none   &none
-&trans   &none   &trans
-            >;
-        };
-
     };
 };
