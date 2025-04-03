@@ -6,6 +6,26 @@
     keymap {
         compatible = "zmk,keymap";
 
-        
+        JassonLayout {
+            display-name = "BASE";
+            bindings = <
+&kp ESC           &kp N1     &kp N2        &kp N3      
+&kp TAB           &kp Q      &kp W
+&kp CAPSLOCK      &kp A      &kp S         &kp D
+&kp LEFT_SHIFT    &kp Z      &kp X
+&kp LEFT_CONTROL  &kp GRAVE  &kp LEFT_WIN
+        };
+
+        lower_layer {
+            display-name = "LOW";
+            bindings = <
+&kp F11  &kp F1  &kp F2  &kp F3
+&none    &none   &none
+&none    &none   &none   &none
+&trans   &none   &none
+&trans   &none   &trans
+            >;
+        };
+
     };
 };
